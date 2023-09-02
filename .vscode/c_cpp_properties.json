@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ahmedmoataz/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/ass_move_turtle/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/ass_rob/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/consumer/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/convert_quaternian/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/diff_drive_controller/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/ex_actions/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/final_progect_mobile_robot/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/gen_rand_number/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/progect_mobile_robot/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/pub_ass_1/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/pub_sub_ultra/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/quis_publisher/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/quiz_sub/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/robot_straight_line/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/ros_basics/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/ros_essentials_cpp/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/rosserial/rosserial_server/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/rosserial/rosserial_test/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/service_try/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/sub_ass_1/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/subscriber/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/test_pub/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/test_sub/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/try_2_action/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/try_lestener_turtle/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/try_publish/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/try_talk_turtule/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/try_ultra/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/ahmedmoataz/catkin_ws/src/ultrasound_node/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

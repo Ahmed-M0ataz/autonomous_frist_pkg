@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+    
+    <joint name="chassis_to_depth_camera" type="fixed">
+        <origin xyz="0.57 0.0 0.15" rpy="0.0 0.0 0.0"/>
+        <parent link="chassis"/>
+        <child link="depth_camera"/>
+        <axis xyz="1.0 0.0 0.0"/>
+        
+    </joint>
+    <link name="depth_camera">
+        <inertial>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <mass value="0.0"/>
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+        </inertial>
+        <visual name="">
+            <origin xyz="0.0 0.0 0.0" rpy="-1.57 0.0 -1.57"/>
+            <geometry>
+                <mesh filename="package://autonomous_frist_pkg/meshes/Intel_RealSense_Depth_Camera_D415.stl" scale= "0.001 0.001 0.001">
+                </mesh>
+            </geometry>
+            <material name="">
+                <color rgba="1.0 0.0 0.0 1.0"/>
+                <texture filename=""/>
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="-1.57 0.0 -1.57"/>
+            <geometry>
+                <mesh filename="package://autonomous_frist_pkg/meshes/Intel_RealSense_Depth_Camera_D415.stl" scale= "0.001 0.001 0.001">
+                    
+                </mesh>            
+            </geometry>
+        </collision>
+    </link>
+</robot>
