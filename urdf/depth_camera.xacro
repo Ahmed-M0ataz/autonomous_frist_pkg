@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
-    
+    <!-- depth camera joint  -->
     <joint name="chassis_to_depth_camera" type="fixed">
         <origin xyz="0.57 0.0 0.15" rpy="0.0 0.0 0.0"/>
         <parent link="chassis"/>
