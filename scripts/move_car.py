@@ -12,6 +12,7 @@ class MoveCar:
         self.yaw_degrees = 0.0
         
         self.pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
+        
         # use adom to know what angle the car is in and use laser to know the distance
         self.sub_angle = rospy.Subscriber("/odom", Odometry, self.odometry_callback)
         self.sub_laser = rospy.Subscriber('/scan', LaserScan, self.laser_callback)
