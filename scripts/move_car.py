@@ -15,7 +15,7 @@ class MoveCar:
         
         # use adom to know what angle the car is in and use laser to know the distance
         self.sub_angle = rospy.Subscriber("/odom", Odometry, self.odometry_callback)
-        self.sub_laser = rospy.Subscriber('/scan', LaserScan, self.laser_callback)
+        self.sub_laser = rospy.Subscriber('/kobuki/laser/scan', LaserScan, self.laser_callback)
 
         self.rate = rospy.Rate(5)  # 10Hz
                
