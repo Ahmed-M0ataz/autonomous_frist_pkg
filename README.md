@@ -81,5 +81,5 @@ Follow these steps to start the `autonomous_frist_pkg` package:
 
 ## Output is 
 
-![Task 3 autonomous differential robot](https://github.com/Ahmed-M0ataz/autonomous_frist_pkg/media/mobile_robot.gif)
+![Task 3 autonomous differential robot](https://github.com/Ahmed-M0ataz/autonomous_frist_pkg/blob/main/media/mobile_robot.gif)
 
