@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="autonomous_frist_pkg" type="move_car.py" name="move_car" output = "screen">
+        
+    </node>
+
+</launch>
